@@ -26,7 +26,33 @@ Page({
         id:4,
         isActive:false
       }
-    ]
+    ],
+    //detail_list:[
+    //  {
+    //    src="../../assets/time.png",
+    //    content="报名截止时间:"
+    //  },
+    //  {
+    //    src="../../assets/start.png",
+    //    content="会议开始时间:"
+    //  },
+    //  {
+    //    src="../../assets/end.png",
+    //    content="会议结束时间:"
+    //  },
+    //  {
+    //    src="../../assets/limit.png",
+    //    content="人数上限:"
+    //  },
+    //  {
+    //    src="../../assets/address.png",
+    //    content="会议地点:"
+    //  },
+    //  {
+    //    src="../../assets/hoster.png",
+    //    content="主办方:"
+    //  }
+    //]
   },
 
   onLoad: function (options) {
