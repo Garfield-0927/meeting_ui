@@ -1,0 +1,10 @@
+<view class="top">
+	<view class="title">首页</view>
+	<view>
+		<view class="input_bg">
+    	<input bindfocus="searchFocus" bindinput="searchInput" bindblur="searchBlur" auto-focus placeholder="请输入搜索关键字" confirm-type="search"  placeholder-style="font-size: 30rpx;color: #FFFFFF;opacity: 0.5;"/>
+		</view>
+  
+	</view>
+
+</view>

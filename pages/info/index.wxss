@@ -1,0 +1,88 @@
+/* pages/info/index.wxss */
+.top {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  width: 750rpx;
+  height: 444rpx;
+}
+.top .bcg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+.top .title_wrapper {
+  position: relative;
+  margin-left: 30rpx;
+}
+.top .title_wrapper .meeting_info .confName {
+  margin-top: 165rpx;
+  width: 583rpx;
+  height: 38rpx;
+  font-size: 40rpx;
+  font-family: PingFang;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.top .title_wrapper .meeting_info .registNotice {
+  display: flex;
+}
+.top .title_wrapper .meeting_info .registNotice .clock image {
+  width: 30rpx;
+  margin-top: 30rpx;
+}
+.top .title_wrapper .meeting_info .registNotice .notice {
+  margin-top: 30rpx;
+  margin-left: 15rpx;
+  width: 172rpx;
+  height: 23rpx;
+  font-size: 24rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.top .title_wrapper .meeting_info .simpleInfo {
+  margin-top: 36rpx ;
+  width: 673rpx;
+  height: 67rpx;
+  font-size: 28rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 44rpx;
+}
+.detail {
+  margin-top: 415rpx;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 921rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+}
+.detail .bar_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail .text {
+  margin-top: 37rpx;
+  flex: 1;
+  height: 85rpx;
+}
+.detail .text .name {
+  padding-bottom: 10rpx;
+  height: 48rpx;
+  font-size: 32rpx;
+  font-family: PingFang;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+.detail .active {
+  border-bottom: 4rpx solid #4552FF;
+  border-top: 17rpx;
+}

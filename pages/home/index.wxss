@@ -1,0 +1,28 @@
+/* pages/home/index.wxss */
+.top {
+  width: 750rpx;
+  height: 242rpx;
+  background: linear-gradient(to right, #2545BB, #3255E4);
+}
+
+.top .title {
+  padding-top: 60rpx;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 36rpx;
+  font-family: SourceHanSansCN;
+  font-weight: 500;
+}
+
+.top .input_bg {
+  padding-top: 16rpx;
+  padding-left: 20rpx;
+  margin: auto;
+  margin-top: 20rpx;
+  width: 690rpx;
+  height: 60rpx;
+  background:#ffffff33;
+  border-radius: 30px;
+}
+
