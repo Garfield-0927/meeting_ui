@@ -63,14 +63,14 @@
 
     <block wx:if="{{tabbar[3].isActive}}">
         <view class="message">
-            <input type="text" placeholder="请输入你的留言"></input>
+            <input type="text" placeholder="请输入你的留言" placeholder-class="input-placeholder"></input>
 
         </view>
 
         <button class="submit">
-            <text>
+            <view>
                 发送
-            </text>
+            </view>
         </button>
 
     </block>
