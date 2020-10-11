@@ -27,32 +27,95 @@ Page({
         isActive:false
       }
     ],
-    //detail_list:[
-    //  {
-    //    src="../../assets/time.png",
-    //    content="报名截止时间:"
-    //  },
-    //  {
-    //    src="../../assets/start.png",
-    //    content="会议开始时间:"
-    //  },
-    //  {
-    //    src="../../assets/end.png",
-    //    content="会议结束时间:"
-    //  },
-    //  {
-    //    src="../../assets/limit.png",
-    //    content="人数上限:"
-    //  },
-    //  {
-    //    src="../../assets/address.png",
-    //    content="会议地点:"
-    //  },
-    //  {
-    //    src="../../assets/hoster.png",
-    //    content="主办方:"
-    //  }
-    //]
+    
+    detail_list:[
+      {
+        id:1,
+        link:'../../assets/time.png',
+        name:'报名截止时间',
+        data:'2020-09-18 12:20'
+      },
+      {
+        id:2,
+        link:'../../assets/start.png',
+        name:'会议开始时间',
+        data:'2020-09-18 12:20'
+      },
+      {
+        id:3,
+        link:'../../assets/end.png',
+        name:'会议结束时间',
+        data:'2020-09-18 12:20'
+      },
+      {
+        id:4,
+        link:'../../assets/limit.png',
+        name:'人数上限',
+        data:300
+      },
+      {
+        id:5,
+        link:'../../assets/address.png',
+        name:'会议地点',
+        data:'shanghai'
+      },
+      {
+        id:6,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:7,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:8,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:9,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },{
+        id:10,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      }
+    ],
+
+    detail_data:[
+     {
+       id:1,
+       registtime:'2020-09-18 12:20'
+     },
+     {
+       id:2,
+       starttime:'2020-09-18 12:20'
+     },
+     {
+       id:3,
+       endtime:'2020-09-18 12:20'
+     },
+     {
+       id:4,
+       memLimit:300
+     },
+     {
+       id:5,
+       hostPlace:'Shanghai'
+     },
+     {
+       id:6,
+       hoster:'HUST'
+     }
+    ]
   },
 
   onLoad: function (options) {

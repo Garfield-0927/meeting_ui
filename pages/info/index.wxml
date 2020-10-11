@@ -18,17 +18,28 @@
 
 
 <view class="detail">
+
     <view class="bar_wrapper">
-        <view class="text {{item.isActive?'active':''}}" wx:for="{{tabbar}}" wx:key="id">
-            <view class="name">{{item.name}}</view>
+        <view class="text " wx:for="{{tabbar}}" wx:key="id" bindtap="itemChange" data-index="{{item}}">
+            <view class="name {{item.isActive?'active':''}}">{{item.name}}</view>
         </view>
     </view>
 
     <block wx:if="{{tabbar[0].isActive}}">
-        
-    
+        <view class="rightbar">
+            <scroll-view scroll-y="true" style="height: 921rpx;">
+                <view class="right_item_wrapper" wx:for="{{detail_list}}" wx:key="link">
+                    <image class="icon" src="{{item.link}}" mode="widthFix"></image>
+                    <view class="right_content">{{item.name}}</view>
+                    <view class="data">{{item.data}}</view>
+                </view>
+            </scroll-view>
+        </view>
     </block>
+
     <block wx:if="{{tabbar[1].isActive}}">1</block>
+
     <block wx:if="{{tabbar[2].isActive}}">2</block>
+
     <block wx:if="{{tabbar[3].isActive}}">3</block>
 </view>

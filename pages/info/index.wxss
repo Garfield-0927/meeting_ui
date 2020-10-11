@@ -74,6 +74,8 @@
   height: 85rpx;
 }
 .detail .text .name {
+  margin-left: 31rpx;
+  width: 130rpx ;
   padding-bottom: 10rpx;
   height: 48rpx;
   font-size: 32rpx;
@@ -85,4 +87,22 @@
 .detail .active {
   border-bottom: 4rpx solid #4552FF;
   border-top: 17rpx;
+}
+.detail .rightbar .right_item_wrapper {
+  margin-left: 34rpx ;
+  margin-top: 47rpx;
+}
+.detail .rightbar .right_item_wrapper .icon {
+  width: 36rpx;
+  display: inline-block;
+}
+.detail .rightbar .right_item_wrapper .right_content {
+  display: inline-block;
+  margin-left: 26rpx;
+  width: 188rpx;
+  height: 28rpx;
+  font-size: 30rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: #333333;
 }
