@@ -72,11 +72,12 @@
   margin-top: 37rpx;
   flex: 1;
   height: 85rpx;
+  margin-bottom: 17rpx;
 }
 .detail .text .name {
   margin-left: 31rpx;
   width: 130rpx ;
-  padding-bottom: 10rpx;
+  padding-bottom: 13rpx;
   height: 48rpx;
   font-size: 32rpx;
   font-family: PingFang;
@@ -90,7 +91,7 @@
 }
 .detail .rightbar .right_item_wrapper {
   margin-left: 34rpx ;
-  margin-top: 47rpx;
+  margin-bottom: 47rpx;
 }
 .detail .rightbar .right_item_wrapper .icon {
   width: 36rpx;
@@ -105,4 +106,15 @@
   font-family: PingFang;
   font-weight: 400;
   color: #333333;
+}
+.detail .rightbar .right_item_wrapper .data {
+  float: right;
+  margin-right: 30rpx;
+  width: 267rpx;
+  height: 23rpx;
+  font-size: 30rpx;
+  font-family: PingFang;
+  font-weight: 400;
+  color: #999999;
+  text-align: right;
 }

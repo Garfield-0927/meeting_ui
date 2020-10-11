@@ -82,8 +82,33 @@ Page({
         link:'../../assets/hoster.png',
         name:'主办方',
         data:'hust'
-      },{
+      },
+      {
         id:10,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:12,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:13,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:14,
+        link:'../../assets/hoster.png',
+        name:'主办方',
+        data:'hust'
+      },
+      {
+        id:15,
         link:'../../assets/hoster.png',
         name:'主办方',
         data:'hust'
