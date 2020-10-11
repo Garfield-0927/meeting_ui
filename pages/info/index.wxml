@@ -49,9 +49,9 @@
             <view class="btnContent">立即报名</view>
         </button>
 
-        <view class="btn" wx:elif="{{canRegist&&hasRegisted}}">
-            <button class="btn1">取消报名</button>
-            <button class="btn2">我的报名信息</button>
+        <view class="btn0" wx:elif="{{canRegist&&hasRegisted}}">
+            <button class="btn1"><view class="btn1Content">取消报名</view></button>
+            <button class="btn2"><view class="btn2Content">我的报名信息</view></button>
         </view>
 
 
@@ -62,9 +62,16 @@
     <block wx:if="{{tabbar[2].isActive}}">hehehhehehe</block>
 
     <block wx:if="{{tabbar[3].isActive}}">
+        <view class="message">
+            <input type="text" placeholder="请输入你的留言"></input>
 
+        </view>
 
-
+        <button class="submit">
+            <text>
+                发送
+            </text>
+        </button>
 
     </block>
 </view>
