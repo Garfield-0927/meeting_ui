@@ -22,7 +22,7 @@ Page({
         name:"收费说明",
         id:3,
         isActive:false,
-        isShow:false
+        isShow:true
       },
       {
         name:"留言",
@@ -68,7 +68,8 @@ Page({
         link:'../../assets/hoster.png',
         name:'主办方',
         data:'hust'
-      },
+      }
+      ,
       {
         id:7,
         link:'../../assets/hoster.png',
@@ -119,32 +120,36 @@ Page({
       }
     ],
 
-    detail_data:[
-     {
-       id:1,
-       registtime:'2020-09-18 12:20'
-     },
-     {
-       id:2,
-       starttime:'2020-09-18 12:20'
-     },
-     {
-       id:3,
-       endtime:'2020-09-18 12:20'
-     },
-     {
-       id:4,
-       memLimit:300
-     },
-     {
-       id:5,
-       hostPlace:'Shanghai'
-     },
-     {
-       id:6,
-       hoster:'HUST'
-     }
-    ]
+    // detail_data:[
+    //  {
+    //    id:1,
+    //    registtime:'2020-09-18 12:20'
+    //  },
+    //  {
+    //    id:2,
+    //    starttime:'2020-09-18 12:20'
+    //  },
+    //  {
+    //    id:3,
+    //    endtime:'2020-09-18 12:20'
+    //  },
+    //  {
+    //    id:4,
+    //    memLimit:300
+    //  },
+    //  {
+    //    id:5,
+    //    hostPlace:'Shanghai'
+    //  },
+    //  {
+    //    id:6,
+    //    hoster:'HUST'
+    //  }
+    // ],
+
+    canRegist:true,
+    hasRegisted:true,
+    hasEnd:false
   },
 
   onLoad: function (options) {
