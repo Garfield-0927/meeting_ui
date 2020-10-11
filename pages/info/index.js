@@ -9,22 +9,26 @@ Page({
       {
         name:"简要信息",
         id:1,
-        isActive:true
+        isActive:true,
+        isShow:true
       },
       {
         name:"详细信息",
         id:2,
-        isActive:false
+        isActive:false,
+        isShow:true
       },
       {
         name:"收费说明",
         id:3,
-        isActive:false
+        isActive:false,
+        isShow:false
       },
       {
         name:"留言",
         id:4,
-        isActive:false
+        isActive:false,
+        isShow:true
       }
     ],
     

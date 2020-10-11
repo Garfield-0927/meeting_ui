@@ -69,13 +69,15 @@
   align-items: center;
 }
 .detail .text {
-  margin-top: 37rpx;
+  margin-top: 25rpx;
   flex: 1;
   height: 85rpx;
   margin-bottom: 17rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .detail .text .name {
-  margin-left: 31rpx;
   width: 130rpx ;
   padding-bottom: 13rpx;
   height: 48rpx;

@@ -20,8 +20,8 @@
 <view class="detail">
 
     <view class="bar_wrapper">
-        <view class="text " wx:for="{{tabbar}}" wx:key="id" bindtap="itemChange" data-index="{{item}}">
-            <view class="name {{item.isActive?'active':''}}">{{item.name}}</view>
+        <view class="text " wx:for="{{tabbar}}" wx:if="{{item.isShow}}" wx:key="id" bindtap="itemChange" data-index="{{item}}">
+            <view  class="name {{item.isActive?'active':''}}">{{item.name}}</view>
         </view>
     </view>
 
@@ -35,6 +35,10 @@
                 </view>
             </scroll-view>
         </view>
+
+        <button class="btn">
+
+        </button>
     </block>
 
     <block wx:if="{{tabbar[1].isActive}}">1</block>
